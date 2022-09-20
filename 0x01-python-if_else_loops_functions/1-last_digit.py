@@ -7,8 +7,8 @@ if number < 0:
 else:
     digit = number % 10
 if digit > 5:
-    print("Last digit of {} is {} is greater than 5".format(number, digit))
+    print(f"Last digit of {number} is {digit} is greater than 5")
 elif digit == 0:
-    print("Last digit of {} is 0 and is 0".format(number, digit))
+    print(f"Last digit of {number} is 0 and is 0")
 else:
-    print("Last digit of {} is {} less than 6 not 0".format(number, digit))
+    print(f"Last digit of {number} is {digit} is less than 6 and not 0")
