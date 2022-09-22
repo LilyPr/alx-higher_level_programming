@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-from sys import argv
+import sys
 if __name__ == "__main__":
-
+    
+    argv = sys.argv
     m = len(argv) - 1
     if m == 1:
         print("1 arguments:")
