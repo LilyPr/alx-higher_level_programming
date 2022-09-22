@@ -2,7 +2,7 @@
 import sys
 
 if __name__ == "__main__":
-     """Print the number of and list of arguments."""
+
 
     m = len(sys.argv) - 1
     if m == 1:
