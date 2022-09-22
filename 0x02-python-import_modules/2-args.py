@@ -3,9 +3,10 @@ import sys
 if __name__ == "__main__":
     m = len(sys.argv) - 1
     if m == 1:
-        print("{:d} argument:".format(m))
+        print("1 arguments.")
     elif m == 2:
-        print("{:d} arguments.".format(m))
+        print("2 arguments:")
+        print("1: {:s}".format(argv[1]))
     else:
         print("{:d} arguments:".format(m))
     for i in range(m):
