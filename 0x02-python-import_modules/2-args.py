@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-import sys
+import sys from argv
 if __name__ == "__main__":
     m = len(argv) - 1
     if m == 0:
