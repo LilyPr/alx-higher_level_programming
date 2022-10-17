@@ -5,6 +5,7 @@ class Rectangle:
     """ Incremented during each new instance instantiation
     Decremented during each instance deletion """
     print_symbol = '#'
+
     def __init__(self, width=0, height=0):
         """ constructor """
         self.width = width
