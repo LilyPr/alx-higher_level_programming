@@ -1,2 +1,2 @@
--- Create a table in the current database in your MySQL
-CREATE Table first_table (id INT, name VARCHAR(256));
+-- Create a table in the current database in your MySQ
+CREATE Table IF NOT EXISTS first_table(id INT, name VARCHAR(256));
